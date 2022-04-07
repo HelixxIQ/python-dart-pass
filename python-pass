@@ -1,0 +1,13 @@
+def cheak_number_ev_or_od():
+    list = []
+    N = int(input("Enter the value of X = "))
+    if N>0 and N<=10:
+        for i in range(N):
+            y = int(input("Enter the value of numbers = "))
+            list.append(y)
+        for x in range(0, len(list)):
+                if list[x]%2==0:
+                    print("(",list[x],")The number is Even")
+                else:
+                    print("(",list[x],")the number is Odd")
+def cheak_number_ev_or_od():

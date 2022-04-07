@@ -7,7 +7,7 @@ def cheak_number_ev_or_od():
             list.append(y)
         for x in range(0, len(list)):
                 if list[x]%2==0:
-                    print("(",list[x],")The number is Even")
+                    print("(",list[x],") is Even")
                 else:
-                    print("(",list[x],")the number is Odd")
+                    print("(",list[x],") is Odd")
 def cheak_number_ev_or_od():

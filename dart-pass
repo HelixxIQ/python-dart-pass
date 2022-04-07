@@ -1,11 +1,14 @@
-//Q1:- 
-//Solution:-
-//Because the constant cannot be changed after it is set because it is assigned a value and given at compile time,
-//So we will not be able to use it with (  DataTime().now  )because it is always updated,
-//But if we want fix the error in the code we can replace the constant with (final keyword) to fix the error in the code
+//Q1/ 
+//We can't change the constant after giving it a value because it can't be used with the time mechanism because
+//time is a variable and not a constant, so we won't be able to use it with datatime().now because it is always updated,
+//But if we want to fix a bug in the code we can replace the constant with (word final core) to fix the error in the code
+//For example:
+//final now = DateTime.now();
+//final berlinWallFell = DateTime.utc(1989, 11, 9);
+//final moonLanding = DateTime.parse('1969-07-20 20:18:04Z'); // 8:18pm
 
 
-//Q2:-
+
 abstract class Animal {
 
   void printName();

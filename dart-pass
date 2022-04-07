@@ -1,0 +1,65 @@
+//Q1:- 
+//Solution:-
+//Because the constant cannot be changed after it is set because it is assigned a value and given at compile time,
+//So we will not be able to use it with (  DataTime().now  )because it is always updated,
+//But if we want fix the error in the code we can replace the constant with (final keyword) to fix the error in the code
+
+
+//Q2:-
+abstract class Animal {
+
+  void printName();
+  void printSound();
+}
+
+class Dog extends Animal{
+  @override
+  void printName() {
+    print("Dog");
+  }
+
+  @override
+  void printSound() {
+    print("Woof");
+  }
+
+}
+
+class Cat extends Animal{
+  @override
+  void printName() {
+    print("Cat");
+  }
+
+  @override
+  void printSound() {
+    print("Meow");
+  }
+
+}
+
+class Cow extends Animal{
+  @override
+  void printName() {
+    print("Cow");
+  }
+
+  @override
+  void printSound() {
+    print("Moo");
+  }
+}
+
+void main(){
+Dog D1=Dog();
+print("The animal name = "); D1.printName();
+print("The animal sound = "); D1.printSound();
+
+Cat CA1=Cat();
+print("The animal name = "); CA1.printName();
+print("The animal sound = "); CA1.printSound();
+
+Cow CO1=Cow();
+print("The animal name = "); CO1.printName();
+print("The animal sound = "); CO1.printSound();
+}
